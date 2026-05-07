@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria de acessibilidade moderna inspirada no projeto Inaccessible Gallery.">
+  <title>Galeria de Acessibilidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#conteudo-principal" class="skip-link">
+  Pular para o conteúdo principal
+</a>
+
+<header class="topo">
+  <div class="container">
+
+    <div class="logo-area">
+      <h1>Galeria de Acessibilidade</h1>
+      <p>Acessibilidade • Semântica • SEO</p>
+    </div>
+
+    <div class="acoes-topo">
+
+      <div class="pesquisa-box">
+        <label for="pesquisa" class="sr-only">Pesquisar conteúdo</label>
+        <input
+          type="search"
+          id="pesquisa"
+          placeholder="Pesquisar..."
+          aria-label="Pesquisar conteúdo"
+        >
+      </div>
+
+      <button
+        class="tema-btn"
+        id="toggleTema"
+        aria-label="Alternar entre modo claro e escuro"
+      >
+        ☀️
+      </button>
+
+      <button
+        class="leitor-btn"
+        id="lerPagina"
+        aria-label="Ler conteúdo da página em voz alta"
+      >
+        🔊
+      </button>
+
+      <button
+        class="idioma-btn"
+        id="toggleIdioma"
+        aria-label="Alterar idioma do site"
+      >
+        PT
+      </button>
+
+      <nav aria-label="Menu principal">
+      <ul class="menu">
+        <li><a href="#estatisticas">Estatísticas</a></li>
+        <li><a href="#problemas">Problemas</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main id="conteudo-principal">
+
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <article>
+
+        <span class="badge">Projeto de acessibilidade web</span>
+
+        <h2>
+          Quase todos os sites modernos possuem problemas de acessibilidade.
+        </h2>
+
+        <p>
+          Inspirado no projeto original Inaccessible Gallery, este site demonstra
+          os principais problemas encontrados na web e como pequenas melhorias
+          podem transformar completamente a experiência do usuário.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#problemas" class="btn-primary">
+            Explorar problemas
+          </a>
+
+          <a href="#sobre" class="btn-secondary">
+            Saiba mais
+          </a>
+        </div>
+
+      </article>
+
+      <aside class="hero-card">
+        <h3>Problemas mais comuns</h3>
+
+        <ul>
+          <li>Baixo contraste de texto</li>
+          <li>Imagens sem texto alternativo</li>
+          <li>Links vazios</li>
+          <li>Campos sem labels</li>
+          <li>Botões sem descrição</li>
+          <li>HTML semântico incorreto</li>
+        </ul>
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="estatisticas" id="estatisticas">
+    <div class="container">
+
+      <div class="section-title">
+        <span>Dados da acessibilidade</span>
+        <h2>Os problemas mais encontrados na web</h2>
+      </div>
+
+      <div class="cards-grid">
+
+        <article class="card">
+          <h3>83.9%</h3>
+          <p>
+            Dos sites possuem problemas de contraste de texto.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>55.4%</h3>
+          <p>
+            Das páginas possuem imagens sem atributo alt.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>46.1%</h3>
+          <p>
+            Dos formulários não possuem labels acessíveis.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="problemas" id="problemas">
+    <div class="container">
+
+      <div class="section-title">
+        <span>Galeria</span>
+        <h2>Problemas simulados de acessibilidade</h2>
+      </div>
+
+      <div class="cards-grid">
+
+        <article class="card problema-card">
+          <h3>Baixo contraste</h3>
+          <p>
+            Textos com contraste inadequado dificultam a leitura e acessibilidade.
+          </p>
+          <a href="#" class="card-link">Ver exemplo</a>
+        </article>
+
+        <article class="card problema-card">
+          <h3>Imagens sem ALT</h3>
+          <p>
+            Usuários de leitores de tela não conseguem compreender imagens sem descrição.
+          </p>
+          <a href="#" class="card-link">Ver exemplo</a>
+        </article>
+
+        <article class="card problema-card">
+          <h3>Links vazios</h3>
+          <p>
+            Links sem contexto dificultam totalmente a navegação.
+          </p>
+          <a href="#" class="card-link">Ver exemplo</a>
+        </article>
+
+        <article class="card problema-card">
+          <h3>Formulários sem label</h3>
+          <p>
+            Campos sem identificação prejudicam usabilidade e acessibilidade.
+          </p>
+          <a href="#" class="card-link">Ver exemplo</a>
+        </article>
+
+        <article class="card problema-card">
+          <h3>Botões vazios</h3>
+          <p>
+            Botões sem descrição confundem usuários e tecnologias assistivas.
+          </p>
+          <a href="#" class="card-link">Ver exemplo</a>
+        </article>
+
+        <article class="card problema-card">
+          <h3>HTML semântico</h3>
+          <p>
+            Estruturas incorretas prejudicam SEO e leitores de tela.
+          </p>
+          <a href="#" class="card-link">Ver exemplo</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <div class="container sobre-grid">
+
+      <article>
+        <span class="mini-title">Sobre o projeto</span>
+
+        <h2>
+          Visualizando barreiras digitais de forma moderna e acessível.
+        </h2>
+
+        <p>
+          Esta versão foi totalmente reformulada utilizando HTML5 semântico,
+          acessibilidade moderna, boas práticas de SEO e uma interface visual profissional.
+        </p>
+
+        <p>
+          O objetivo é demonstrar como pequenos erros de desenvolvimento
+          podem impactar diretamente milhões de usuários.
+        </p>
+      </article>
+
+      <aside>
+        <img
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+          alt="Pessoa utilizando notebook para desenvolvimento web"
+        >
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>
+      Projeto acadêmico de Acessibilidade e Semântica Web — Miguel Moura - Maria Eduarda - Lucas Gabriel
+    </p>
+  </div>
+</footer>
+
+  <script>
+    const botaoTema = document.getElementById('toggleTema');
+    const leitorBtn = document.getElementById('lerPagina');
+    const idiomaBtn = document.getElementById('toggleIdioma');
+
+    let falando = false;
+    let idiomaAtual = 'pt';
+
+    // começa no modo escuro
+    document.body.classList.add('dark-mode');
+
+    botaoTema.addEventListener('click', () => {
+      document.body.classList.toggle('light-mode');
+      document.body.classList.toggle('dark-mode');
+
+      if(document.body.classList.contains('light-mode')) {
+        botaoTema.textContent = '☀️';
+      } else {
+        botaoTema.textContent = '🌙';
+      }
+    });
+
+    // Leitor de tela em voz alta
+    leitorBtn.addEventListener('click', () => {
+
+      if(falando) {
+        window.speechSynthesis.cancel();
+        falando = false;
+        leitorBtn.textContent = '🔊';
+        return;
+      }
+
+      const conteudo = document.getElementById('conteudo-principal').innerText;
+
+      const fala = new SpeechSynthesisUtterance(conteudo);
+
+      fala.lang = idiomaAtual === 'pt' ? 'pt-BR' : 'en-US';
+      fala.rate = 1;
+      fala.pitch = 1;
+
+      falando = true;
+      leitorBtn.textContent = '⏹️';
+
+      fala.onend = () => {
+        falando = false;
+        leitorBtn.textContent = '🔊';
+      };
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(fala);
+    });
+
+  // =========================
+// ALTERADOR DE IDIOMA COMPLETO
+// =========================
+
+idiomaBtn.addEventListener('click', () => {
+
+  const menuLinks = document.querySelectorAll('.menu a');
+  const heroItems = document.querySelectorAll('.hero-card li');
+  const estatisticaCards = document.querySelectorAll('.estatisticas .card');
+  const problemCards = document.querySelectorAll('.problema-card');
+  const sobrePs = document.querySelectorAll('.sobre p');
+
+  // =========================
+  // INGLÊS
+  // =========================
+
+  if(idiomaAtual === 'pt') {
+
+    idiomaAtual = 'en';
+
+    idiomaBtn.textContent = 'EN';
+
+    document.documentElement.lang = 'en';
+
+    // HEADER
+    document.querySelector('.logo-area h1').textContent =
+      'Accessibility Gallery';
+
+    document.querySelector('.logo-area p').textContent =
+      'Accessibility • Semantics • SEO';
+
+    // MENU
+    menuLinks[0].textContent = 'Statistics';
+    menuLinks[1].textContent = 'Problems';
+    menuLinks[2].textContent = 'About';
+
+    // HERO
+    document.querySelector('.badge').textContent =
+      'Web Accessibility Project';
+
+    document.querySelector('.hero h2').textContent =
+      'Almost every modern website has accessibility problems.';
+
+    document.querySelector('.hero p').textContent =
+      'Inspired by the original Inaccessible Gallery project, this website demonstrates the main accessibility problems found on the web and how small improvements can completely transform user experience.';
+
+    document.querySelector('.btn-primary').textContent =
+      'Explore Problems';
+
+    document.querySelector('.btn-secondary').textContent =
+      'Learn More';
+
+    // HERO CARD
+    document.querySelector('.hero-card h3').textContent =
+      'Most common problems';
+
+    heroItems[0].textContent = 'Low text contrast';
+    heroItems[1].textContent = 'Images without alternative text';
+    heroItems[2].textContent = 'Empty links';
+    heroItems[3].textContent = 'Inputs without labels';
+    heroItems[4].textContent = 'Buttons without descriptions';
+    heroItems[5].textContent = 'Incorrect semantic HTML';
+
+    // ESTATÍSTICAS
+    document.querySelector('#estatisticas .section-title span').textContent =
+      'Accessibility Data';
+
+    document.querySelector('#estatisticas .section-title h2').textContent =
+      'The most common problems found on the web';
+
+    estatisticaCards[0].querySelector('p').textContent =
+      'Websites with text contrast problems.';
+
+    estatisticaCards[1].querySelector('p').textContent =
+      'Pages with images missing ALT attributes.';
+
+    estatisticaCards[2].querySelector('p').textContent =
+      'Forms without accessible labels.';
+
+    // PROBLEMAS
+    document.querySelector('#problemas .section-title span').textContent =
+      'Gallery';
+
+    document.querySelector('#problemas .section-title h2').textContent =
+      'Simulated accessibility problems';
+
+    // CARD 1
+    problemCards[0].querySelector('h3').textContent =
+      'Low contrast';
+
+    problemCards[0].querySelector('p').textContent =
+      'Texts with poor contrast make reading difficult and inaccessible.';
+
+    problemCards[0].querySelector('a').textContent =
+      'View example';
+
+    // CARD 2
+    problemCards[1].querySelector('h3').textContent =
+      'Images without ALT';
+
+    problemCards[1].querySelector('p').textContent =
+      'Screen reader users cannot understand images without descriptions.';
+
+    problemCards[1].querySelector('a').textContent =
+      'View example';
+
+    // CARD 3
+    problemCards[2].querySelector('h3').textContent =
+      'Empty links';
+
+    problemCards[2].querySelector('p').textContent =
+      'Links without context completely harm navigation.';
+
+    problemCards[2].querySelector('a').textContent =
+      'View example';
+
+    // CARD 4
+    problemCards[3].querySelector('h3').textContent =
+      'Forms without labels';
+
+    problemCards[3].querySelector('p').textContent =
+      'Fields without identification harm usability and accessibility.';
+
+    problemCards[3].querySelector('a').textContent =
+      'View example';
+
+    // CARD 5
+    problemCards[4].querySelector('h3').textContent =
+      'Empty buttons';
+
+    problemCards[4].querySelector('p').textContent =
+      'Buttons without descriptions confuse users and assistive technologies.';
+
+    problemCards[4].querySelector('a').textContent =
+      'View example';
+
+    // CARD 6
+    problemCards[5].querySelector('h3').textContent =
+      'Semantic HTML';
+
+    problemCards[5].querySelector('p').textContent =
+      'Incorrect structures harm SEO and screen readers.';
+
+    problemCards[5].querySelector('a').textContent =
+      'View example';
+
+    // SOBRE
+    document.querySelector('.mini-title').textContent =
+      'About the project';
+
+    document.querySelector('.sobre h2').textContent =
+      'Visualizing digital barriers in a modern and accessible way.';
+
+    sobrePs[0].textContent =
+      'This version was completely redesigned using semantic HTML5, modern accessibility practices, SEO improvements and a professional interface.';
+
+    sobrePs[1].textContent =
+      'The goal is to demonstrate how small development mistakes can directly impact millions of users.';
+
+    // FOOTER
+    document.querySelector('footer p').textContent =
+      'Academic project about Accessibility and Web Semantics — Miguel Moura - Maria Eduarda - Lucas Gabriel';
+
+  }
+
+  // =========================
+  // PORTUGUÊS
+  // =========================
+
+  else {
+
+    idiomaAtual = 'pt';
+
+    idiomaBtn.textContent = 'PT';
+
+    document.documentElement.lang = 'pt-BR';
+
+    // HEADER
+    document.querySelector('.logo-area h1').textContent =
+      'Galeria de Acessibilidade';
+
+    document.querySelector('.logo-area p').textContent =
+      'Acessibilidade • Semântica • SEO';
+
+    // MENU
+    menuLinks[0].textContent = 'Estatísticas';
+    menuLinks[1].textContent = 'Problemas';
+    menuLinks[2].textContent = 'Sobre';
+
+    // HERO
+    document.querySelector('.badge').textContent =
+      'Projeto de acessibilidade web';
+
+    document.querySelector('.hero h2').textContent =
+      'Quase todos os sites modernos possuem problemas de acessibilidade.';
+
+    document.querySelector('.hero p').textContent =
+      'Inspirado no projeto original Inaccessible Gallery, este site demonstra os principais problemas encontrados na web e como pequenas melhorias podem transformar completamente a experiência do usuário.';
+
+    document.querySelector('.btn-primary').textContent =
+      'Explorar problemas';
+
+    document.querySelector('.btn-secondary').textContent =
+      'Saiba mais';
+
+    // HERO CARD
+    document.querySelector('.hero-card h3').textContent =
+      'Problemas mais comuns';
+
+    heroItems[0].textContent = 'Baixo contraste de texto';
+    heroItems[1].textContent = 'Imagens sem texto alternativo';
+    heroItems[2].textContent = 'Links vazios';
+    heroItems[3].textContent = 'Campos sem labels';
+    heroItems[4].textContent = 'Botões sem descrição';
+    heroItems[5].textContent = 'HTML semântico incorreto';
+
+    // ESTATÍSTICAS
+    document.querySelector('#estatisticas .section-title span').textContent =
+      'Dados da acessibilidade';
+
+    document.querySelector('#estatisticas .section-title h2').textContent =
+      'Os problemas mais encontrados na web';
+
+    estatisticaCards[0].querySelector('p').textContent =
+      'Dos sites possuem problemas de contraste de texto.';
+
+    estatisticaCards[1].querySelector('p').textContent =
+      'Das páginas possuem imagens sem atributo alt.';
+
+    estatisticaCards[2].querySelector('p').textContent =
+      'Dos formulários não possuem labels acessíveis.';
+
+    // PROBLEMAS
+    document.querySelector('#problemas .section-title span').textContent =
+      'Galeria';
+
+    document.querySelector('#problemas .section-title h2').textContent =
+      'Problemas simulados de acessibilidade';
+
+    // CARD 1
+    problemCards[0].querySelector('h3').textContent =
+      'Baixo contraste';
+
+    problemCards[0].querySelector('p').textContent =
+      'Textos com contraste inadequado dificultam a leitura e acessibilidade.';
+
+    problemCards[0].querySelector('a').textContent =
+      'Ver exemplo';
+
+    // CARD 2
+    problemCards[1].querySelector('h3').textContent =
+      'Imagens sem ALT';
+
+    problemCards[1].querySelector('p').textContent =
+      'Usuários de leitores de tela não conseguem compreender imagens sem descrição.';
+
+    problemCards[1].querySelector('a').textContent =
+      'Ver exemplo';
+
+    // CARD 3
+    problemCards[2].querySelector('h3').textContent =
+      'Links vazios';
+
+    problemCards[2].querySelector('p').textContent =
+      'Links sem contexto dificultam totalmente a navegação.';
+
+    problemCards[2].querySelector('a').textContent =
+      'Ver exemplo';
+
+    // CARD 4
+    problemCards[3].querySelector('h3').textContent =
+      'Formulários sem label';
+
+    problemCards[3].querySelector('p').textContent =
+      'Campos sem identificação prejudicam usabilidade e acessibilidade.';
+
+    problemCards[3].querySelector('a').textContent =
+      'Ver exemplo';
+
+    // CARD 5
+    problemCards[4].querySelector('h3').textContent =
+      'Botões vazios';
+
+    problemCards[4].querySelector('p').textContent =
+      'Botões sem descrição confundem usuários e tecnologias assistivas.';
+
+    problemCards[4].querySelector('a').textContent =
+      'Ver exemplo';
+
+    // CARD 6
+    problemCards[5].querySelector('h3').textContent =
+      'HTML semântico';
+
+    problemCards[5].querySelector('p').textContent =
+      'Estruturas incorretas prejudicam SEO e leitores de tela.';
+
+    problemCards[5].querySelector('a').textContent =
+      'Ver exemplo';
+
+    // SOBRE
+    document.querySelector('.mini-title').textContent =
+      'Sobre o projeto';
+
+    document.querySelector('.sobre h2').textContent =
+      'Visualizando barreiras digitais de forma moderna e acessível.';
+
+    sobrePs[0].textContent =
+      'Esta versão foi totalmente reformulada utilizando HTML5 semântico, acessibilidade moderna, boas práticas de SEO e uma interface visual profissional.';
+
+    sobrePs[1].textContent =
+      'O objetivo é demonstrar como pequenos erros de desenvolvimento podem impactar diretamente milhões de usuários.';
+
+    // FOOTER
+    document.querySelector('footer p').textContent =
+      'Projeto acadêmico de Acessibilidade e Semântica Web — Miguel Moura - Maria Eduarda - Lucas Gabriel';
+  }
+});
+  </script>
+
+</body>
+</html>
