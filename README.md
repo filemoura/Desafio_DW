@@ -18,7 +18,7 @@ Além das correções obrigatórias solicitadas na atividade, foram implementada
 
 # 📌 Link do Projeto
 
-[https://filemoura.github.io/Desafio_DW/]
+https://filemoura.github.io/Desafio_DW/
 
 ---
 
