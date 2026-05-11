@@ -16,6 +16,12 @@ Além das correções obrigatórias solicitadas na atividade, foram implementada
 
 ---
 
+# 📌 Link do Projeto
+
+[https://filemoura.github.io/Desafio_DW/]
+
+---
+
 # 🎯 Objetivos do Projeto
 
 * Melhorar a semântica HTML5
@@ -307,12 +313,6 @@ As melhorias implementadas proporcionaram:
 * Compatibilidade com tecnologias assistivas
 
 Além disso, o projeto demonstra a importância da acessibilidade no desenvolvimento web moderno.
-
----
-
-# 📌 Link do Projeto
-
-[https://filemoura.github.io/Desafio_DW/]
 
 ---
 
