@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi desenvolvido com o objetivo de corrigir problemas de acessibilidade, semântica HTML5 e SEO presentes no site original inspirado no projeto Inaccessible Gallery.
 
@@ -16,13 +16,13 @@ Além das correções obrigatórias solicitadas na atividade, foram implementada
 
 ---
 
-# 📌 Link do Projeto
+# Link do Projeto
 
 https://filemoura.github.io/Desafio_DW/
 
 ---
 
-# 🎯 Objetivos do Projeto
+# Objetivos do Projeto
 
 * Melhorar a semântica HTML5
 * Corrigir problemas de acessibilidade
@@ -34,9 +34,9 @@ https://filemoura.github.io/Desafio_DW/
 
 ---
 
-# 🧩 Funcionalidades Implementadas
+#  Funcionalidades Implementadas
 
-## ✅ Estrutura Semântica
+##  Estrutura Semântica
 
 Foram utilizadas corretamente as seguintes tags:
 
@@ -49,7 +49,7 @@ Foram utilizadas corretamente as seguintes tags:
 
 ---
 
-## ✅ Acessibilidade
+##  Acessibilidade
 
 O projeto recebeu diversas melhorias voltadas à acessibilidade:
 
@@ -63,7 +63,7 @@ O projeto recebeu diversas melhorias voltadas à acessibilidade:
 
 ---
 
-## ✅ Leitor de Voz
+##  Leitor de Voz
 
 Foi implementado um sistema de leitura em voz alta utilizando a API:
 
@@ -77,7 +77,7 @@ Funcionalidades:
 
 ---
 
-## ✅ Sistema Multilíngue
+##  Sistema Multilíngue
 
 O site possui suporte para:
 
@@ -91,7 +91,7 @@ Além da troca de idioma visual, o sistema também altera:
 
 ---
 
-## ✅ Modo Claro e Escuro
+##  Modo Claro e Escuro
 
 Foi implementado um sistema moderno de temas:
 
@@ -107,7 +107,7 @@ Com foco em:
 
 ---
 
-## ✅ SEO
+##  SEO
 
 Foram aplicadas melhorias como:
 
@@ -136,7 +136,7 @@ Também foram utilizados:
 
 ---
 
-# 🐞 Problemas Corrigidos
+#  Problemas Corrigidos
 
 Durante o desenvolvimento foram corrigidos:
 
@@ -151,7 +151,7 @@ Durante o desenvolvimento foram corrigidos:
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+#  Tecnologias Utilizadas
 
 * HTML5
 * CSS3
@@ -159,7 +159,7 @@ Durante o desenvolvimento foram corrigidos:
 
 ---
 
-# 📷 Prints dos Projetos  
+#  Prints dos Projetos  
 
 ## Código do Site Antigo
 <img width="1722" height="861" alt="image" src="https://github.com/user-attachments/assets/01dd6e15-cb48-43cc-b57f-858d3b5ce133" />
@@ -206,7 +206,7 @@ Durante o desenvolvimento foram corrigidos:
 
 ---
 
-# 📚 RELATÓRIO DO PROJETO
+#  RELATÓRIO DO PROJETO
 
 ## Introdução
 
@@ -218,7 +218,7 @@ O objetivo foi aplicar conceitos modernos de desenvolvimento front-end utilizand
 
 ---
 
-# 🔍 Análise do Site Original
+#  Análise do Site Original
 
 O site original apresentava diversos problemas:
 
@@ -242,7 +242,7 @@ O site original apresentava diversos problemas:
 
 ---
 
-# 🛠️ Melhorias Aplicadas
+#  Melhorias Aplicadas
 
 ## Estrutura HTML5
 
@@ -289,7 +289,7 @@ Melhorando acessibilidade internacional e SEO.
 
 ---
 
-# ⭐ Funcionalidades Extras
+#  Funcionalidades Extras
 
 Além do solicitado na atividade, também foram adicionados:
 
@@ -300,7 +300,7 @@ Além do solicitado na atividade, também foram adicionados:
 
 ---
 
-# ✅ Conclusão
+#  Conclusão
 
 O projeto final conseguiu transformar um site com problemas estruturais e de acessibilidade em uma aplicação moderna, organizada e acessível.
 
@@ -316,7 +316,7 @@ Além disso, o projeto demonstra a importância da acessibilidade no desenvolvim
 
 ---
 
-# 🤖 Declaração de Uso de Tecnologias e Inteligência Artificial
+#  Declaração de Uso de Tecnologias e Inteligência Artificial
 
 Para o desenvolvimento deste projeto acadêmico, foram utilizadas ferramentas digitais e tecnologias de apoio com o objetivo de auxiliar na organização, desenvolvimento visual, pesquisa e implementação do sistema apresentado.
 
